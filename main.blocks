@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="M!*c$Z!`Fd-;e1DH83`6">Score</variable><variable id="YQU:%gc)n}~1DVqei)/t">Score points</variable></variables><block type="device_button_event" id="CywtY@T]lj;S!/?e|9o`" x="225" y="-132"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id=":%b4zk6y#g=U^(DHnEah"><field name="LEDS">`
+        . . # # . 
+        . # # # # 
+        . # # # # 
+        . . # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="!n86Rpch1LZ3WyZj93R;"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field><next><block type="variables_change" id="jiJ(MrWhjCBZA)4+n33x"><field name="VAR" id="M!*c$Z!`Fd-;e1DH83`6">Score</field><value name="VALUE"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="variables_get" id="[V!tM=l)1]=A$Q~$X}ZG"><field name="VAR" id="YQU:%gc)n}~1DVqei)/t">Score points</field></block></value><next><block type="device_show_number" id="saH@=.X6WaXKk`!l]nm,"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="~ZKACqYgH=8:o%/qR;LH"><field name="VAR" id="M!*c$Z!`Fd-;e1DH83`6">Score</field></block></value><next><block type="device_show_leds" id="(M[3VBY+5|HVTJs-RY-y"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id=":l%SP99g#LBZ%1?Py+s}" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="X:G/cUnk*G/cmjibv.x{"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="5!y`$zr7t`Z-!M]RJYJ@"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="H#TTf_J2,-7XGeVr]%NC"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="cDlPBaE!C/`x]8MFpCjM"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_print_message" id="bu/AytjdXA?wHo#EONkF"><value name="text"><shadow type="text" id="CNjW~}Hh)C,x}]e@9F$#"><field name="TEXT">Cookie Clicker</field></shadow></value><next><block type="variables_set" id="M}Ro:Oq_me?3BzLahb*4"><field name="VAR" id="M!*c$Z!`Fd-;e1DH83`6">Score</field><value name="VALUE"><shadow type="math_number" id="LvV[c*9)uW-MQ6!lCUB6"><field name="NUM">4</field></shadow></value><next><block type="game_set_score" id="wsHzkEUl+s5YQ(YsC@pd"><value name="points"><shadow type="math_number" id="Jb/Y7]#@nkahx_c2*`I|"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="qYtQp%+L3K(N-=KMs,m;"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="8+:$:[GLWb[)JUYR.b3~" x="589" y="4"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_change" id="+V0e5uRPG2Q)EWr9=L]H"><field name="VAR" id="YQU:%gc)n}~1DVqei)/t">Score points</field><value name="VALUE"><shadow type="math_number" id="`3wU[AwV.6M=lAT=lp|S"><field name="NUM">1</field></shadow></value><next><block type="variables_change" id="|:[`m40~2Q`V.tU6GEda"><field name="VAR" id="M!*c$Z!`Fd-;e1DH83`6">Score</field><value name="VALUE"><shadow type="math_number" id=")Vm5C/Hxc]!`]kp8oZ:`"><field name="NUM">-4</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="pKSZd.ofO3B=7id}h[Sx" x="597" y="424"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="game_set_score" id="3zGYEu0mm$?oITTxf0Uc"><value name="points"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="b7?o92.h8-.R]r$KNNZD"><field name="VAR" id="M!*c$Z!`Fd-;e1DH83`6">Score</field></block></value><next><block type="game_game_over" id="h(Yz,?ErVO@j+_z-WhMr"/></next></block></statement></block></xml>
